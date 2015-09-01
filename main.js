@@ -210,6 +210,14 @@ var percentOverall = numCorrectAnswers * 100 / 15;
 
 console.log("Your overall score is " + percentOverall.toFixed(2) + "%");
 
+if (percentOverall === 100.00){
+    console.log(" _  ___   ___");
+    console.log("/ |/ _ \\ / _ \\ ");
+    console.log("| | | | | | | |");
+    console.log("| | |_| | |_| |");
+    console.log("|_|\\___/ \\___/ ");
+}
+
 console.log("HTML - " + htmlCorrect + " out of 5");
 console.log("CSS - " + cssCorrect + " out of 5");
 console.log("JavaScript - " + jsCorrect + " out of 5");
