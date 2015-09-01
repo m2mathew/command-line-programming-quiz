@@ -1,0 +1,25 @@
+{
+  "name": "command-line-programming-quiz",
+  "version": "1.0.0",
+  "description": "building out a quiz covering HTML, CSS, and JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m2mathew/command-line-programming-quiz.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Mike Mathew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m2mathew/command-line-programming-quiz/issues"
+  },
+  "homepage": "https://github.com/m2mathew/command-line-programming-quiz#readme",
+  "dependencies": {
+    "prompt-sync": "^3.0.0"
+  }
+}
