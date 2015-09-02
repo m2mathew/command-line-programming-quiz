@@ -7,6 +7,8 @@ var jsCorrect = 0;
 
 console.log("What is your name?");
 var name = prompt();
+console.time("Time of Quiz");
+
 
 console.log("Hey, " + name + "... here is your first question...");
 
@@ -205,10 +207,11 @@ else {
     console.log("Hmmm");
 }
 
-
 var percentOverall = numCorrectAnswers * 100 / 15;
 
-console.log("Your overall score is " + percentOverall.toFixed(2) + "%");
+console.log("-----------------------------------");
+console.log("You answered " + numCorrectAnswers + "/15 correctly.");
+console.log("Your overall score is " + percentOverall.toFixed(2) + "%.");
 
 if (percentOverall === 100.00){
     console.log(" _  ___   ___");
@@ -218,6 +221,9 @@ if (percentOverall === 100.00){
     console.log("|_|\\___/ \\___/ ");
 }
 
+console.log("-----------------------------------");
 console.log("HTML - " + htmlCorrect + " out of 5");
 console.log("CSS - " + cssCorrect + " out of 5");
 console.log("JavaScript - " + jsCorrect + " out of 5");
+console.timeEnd("Time of Quiz");
+console.log("-----------------------------------");
