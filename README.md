@@ -1,5 +1,9 @@
 # Command Line Programming Quiz
 
+Assignment from The Iron Yard-Austin
+
+Week 2 - day 6
+
 Create a programming quiz on the command line to test the skill of your fellow students.
 
 ## Normal Mode

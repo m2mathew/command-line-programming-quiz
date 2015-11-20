@@ -7,7 +7,7 @@ var jsCorrect = 0;
 
 console.log("What is your name?");
 var name = prompt();
-console.time("Time of Quiz");
+console.time(quizTime);
 
 console.log("-----------------------------------");
 console.log("Hey, " + name + "... here is your first question...");
@@ -240,5 +240,5 @@ console.log("-----------------------------------");
 console.log("HTML - " + htmlCorrect + " out of 5");
 console.log("CSS - " + cssCorrect + " out of 5");
 console.log("JavaScript - " + jsCorrect + " out of 5");
-console.timeEnd("Time of Quiz");
+console.timeEnd(quizTime);
 console.log("-----------------------------------");
